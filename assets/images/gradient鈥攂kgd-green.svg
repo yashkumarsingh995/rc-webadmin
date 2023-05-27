@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="926" viewBox="0 0 428 926">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.723" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#253c00"/>
+      <stop offset="1" stop-color="#94d034"/>
+    </radialGradient>
+  </defs>
+  <g id="gradient_bkgd-green" data-name="gradient—bkgd-green" transform="translate(-653 -567)">
+    <rect id="Rectangle_1331" data-name="Rectangle 1331" width="427" height="926" transform="translate(653 567)" fill="url(#radial-gradient)"/>
+    <g id="Group_2892" data-name="Group 2892" transform="translate(964.027 567)">
+      <g id="Group_2798" data-name="Group 2798" style="mix-blend-mode: normal;isolation: isolate">
+        <path id="Path_521" data-name="Path 521" d="M-8768-18081h116.973v111.271Z" transform="translate(8768 18081)" fill="#f1f9ff" opacity="0.055"/>
+        <path id="Path_522" data-name="Path 522" d="M-8768-18081h68.168v64.846Z" transform="translate(8816.805 18081)" fill="#f1f9ff" opacity="0.055"/>
+      </g>
+    </g>
+  </g>
+</svg>

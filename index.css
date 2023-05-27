@@ -1,0 +1,415 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Lato', Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #171F58;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* React Admin specific global styles - these could also be done with Material UI themes */
+
+.Dashboard .MuiCard-root {
+  border: 1px solid #8BA7C7;
+  padding: 7px;
+}
+
+.filter-field .installers-search {
+  position: absolute;
+  right: 0;
+  bottom: -110px;
+  z-index: 1;
+  min-width: 300px;
+}
+
+#main-content {
+  background: #fff;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+#main-content .edit-page {
+  width: 100%;
+}
+
+#main-content .MuiBreadcrumbs-root {
+  padding-left: 120px;
+}
+
+#main-content .MuiCard-root {
+  box-shadow: none;
+  position: relative;
+}
+
+#main-content .MuiCardContent-root+.MuiToolbar-root {
+  background-color: #94D034;
+}
+
+#main-content .MuiInputBase-root {
+  background: #fff;
+  border: 1px solid #BCE0FD !important;
+  border-radius: 0;
+  padding: 0;
+}
+
+#main-content .MuiInputLabel-root {
+  color: #171F58 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#main-content .MuiInputLabel-filled {
+  opacity: 0.25;
+}
+
+#main-content .MuiInputLabel-formControl {
+  top: 7px;
+  left: 5px;
+}
+
+#main-content .MuiInputLabel-outlined {
+  background: #fff;
+  padding: 0 3px;
+}
+
+#main-content .MuiInputLabel-shrink {
+  opacity: 1;
+}
+
+#main-content .MuiFilledInput-underline::before,
+.MuiFilledInput-underline::after {
+  display: none;
+}
+
+#main-content .MuiTableRow-root {
+  border-color: #8BA7C7;
+  color: #8BA7C7;
+}
+
+#main-content .MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: #F1F9FF;
+}
+
+#main-content .MuiTab-textColorInherit.Mui-selected {
+  color: #171F58;
+}
+
+#main-content .MuiTab-textColorInherit {
+  border-color: #8BA7C7;
+  color: #8BA7C7;
+}
+
+.layout .MuiAppBar-root {
+  box-shadow: none;
+}
+
+.MuiTypography-body1 {
+  /* padding-left: 0 !important; */
+  text-transform: uppercase;
+}
+
+.MuiCardActions-root {
+  position: absolute;
+  margin-bottom: 0;
+}
+
+.MuiDisabled {
+  cursor: not-allowed;
+}
+
+.MuiIcon-root {
+  color: 'primary';
+}
+
+.MuiTabs-root .MuiTab-root {
+  border-bottom: 4px solid gray;
+}
+
+.MuiTabs-root .MuiTabs-indicator {
+  background-color: #171F58;
+  height: 4px;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.drawer-main {
+  padding-right: 15px;
+  width: 250px;
+}
+
+.RaEmpty-message {
+  color: #000 !important;
+}
+
+.RaEmpty-message .MuiTypography-body1 {
+  display: none;
+}
+
+.RaEmpty-toolbar {
+  display: none;
+}
+
+.RaSidebarToggleButton-menuButtonIconOpen, .RaSidebarToggleButton-menuButtonIconClosed {
+  color: #fff !important;
+}
+
+/* swiper */
+
+.swiper {
+  width: 290px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.swiper-button-disabled {
+  color: #ddd;
+}
+
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #171F58 !important;
+  width: 0.4rem !important;
+  height: 0.4rem !important;
+  border-radius: .5rem !important;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 1 !important;
+  width: 0.3rem !important;
+  height: 0.3rem !important;
+  border-radius: .5rem !important;
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+}
+
+/* stripe form */
+* {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-style: none;
+}
+
+.AppWrapper {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale3D(0.95, 0.95, 0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale3D(1, 1, 1);
+  }
+}
+
+.Form {
+  animation: fade 200ms ease-out;
+  width: 100%;
+}
+
+.FormGroup {
+  /* margin: 0 15px 20px; */
+  margin: 0 0 20px 0;
+  padding: 0;
+  border-style: none;
+  background-color: #fbfbfb;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #ececec;
+  border-radius: 4px;
+}
+
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  border-top: 1px solid #ececec;
+}
+
+.FormRow:first-child {
+  border-top: none;
+}
+
+.FormRowLabel {
+  width: 15%;
+  min-width: 70px;
+  padding: 11px 0;
+  color: #171f58;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@keyframes void-animation-out {
+  0%,
+  to {
+    opacity: 1;
+  }
+}
+
+.FormRowInput:-webkit-autofill {
+  -webkit-text-fill-color: #171f58;
+  /* Hack to hide the default webkit autofill */
+  transition: background-color 100000000s;
+  animation: 1ms void-animation-out;
+}
+
+.FormRowInput {
+  font-size: 16px;
+  width: 100%;
+  padding: 11px 15px 11px 0;
+  color: #171f58;
+  background-color: transparent;
+  animation: 1ms void-animation-out;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+.FormRowInput::placeholder {
+  color: #8ba7c7;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+
+.ErrorMessage {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  font-size: 13px;
+  margin-top: 0px;
+  width: 100%;
+  transform: translateY(-15px);
+  opacity: 0;
+  animation: fade 150ms ease-out;
+  animation-delay: 50ms;
+  animation-fill-mode: forwards;
+  will-change: opacity, transform;
+}
+
+.ErrorMessage svg {
+  margin-right: 10px;
+}
+
+.Result {
+  margin-top: 10px;
+  text-align: center;
+  animation: fade 200ms ease-out;
+}
+
+.ResultTitle {
+  font-family: 'Lato';
+  color: #94d034;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.ResultMessage {
+  color: #94d034;
+  font-family: 'Lato';
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.ResetButton {
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.mask-box {
+  border-radius: 5px;
+  position: relative;
+  background: #E8EEF4;
+  box-shadow: 1px 1px 2px rgb(165, 165, 165) inset;
+}
+.mask-box .mask {
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background: #94d034;
+  position: absolute;
+  box-shadow: 1px 0 2px #b473ff;
+  transition: all 0.5s ease;
+}
+.mask-box .MuiButton-root {
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  font-weight: bold;
+  transition: all 0.2s 0.1s ease;
+}
+.mask-box .MuiButton-root:hover {
+  opacity: 0.8;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+  .swiper {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+  }
+}

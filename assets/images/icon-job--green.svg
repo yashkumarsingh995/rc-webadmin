@@ -1,0 +1,21 @@
+<svg id="icon-job--green" xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 48 64">
+  <g id="Group_2680" data-name="Group 2680">
+    <g id="Group_2673" data-name="Group 2673">
+      <g id="Group_2672" data-name="Group 2672" transform="translate(43.482 15.772)">
+        <path id="Path_652" data-name="Path 652" d="M396.259,142.933A2.224,2.224,0,0,1,394,140.745v-1.222a2.26,2.26,0,0,1,4.518,0v1.222A2.224,2.224,0,0,1,396.259,142.933Z" transform="translate(-394 -137.335)" fill="#94d034"/>
+      </g>
+      <path id="Path_653" data-name="Path 653" d="M131.741,35.851A2.224,2.224,0,0,0,134,33.663V26.1a4.175,4.175,0,0,0-4.235-4.1H90.235A4.175,4.175,0,0,0,86,26.1V81.9A4.175,4.175,0,0,0,90.235,86h27.614a2.3,2.3,0,0,0,1.595-.639l13.892-13.42A2.154,2.154,0,0,0,134,70.392V47.65a2.26,2.26,0,0,0-4.518,0V68.2H117.849a2.224,2.224,0,0,0-2.259,2.188V81.624H90.518V26.376h38.965v7.287A2.224,2.224,0,0,0,131.741,35.851ZM126.278,72.58l-6.169,5.96V72.58Z" transform="translate(-86 -22)" fill="#94d034"/>
+    </g>
+    <g id="Group_2679" data-name="Group 2679" transform="translate(10.146 10.849)">
+      <g id="Group_2677" data-name="Group 2677">
+        <g id="Group_2675" data-name="Group 2675" transform="translate(0 8.205)">
+          <path id="Path_655" data-name="Path 655" d="M184.21,145.347H160.127a2.189,2.189,0,1,1,0-4.376H184.21a2.189,2.189,0,1,1,0,4.376Z" transform="translate(-157.868 -141.275)" fill="#94d034"/>
+          <path id="Path_880" data-name="Path 880" d="M184.21,145.347H160.127a2.189,2.189,0,1,1,0-4.376H184.21a2.189,2.189,0,1,1,0,4.376Z" transform="translate(-157.868 -133.275)" fill="#94d034"/>
+        </g>
+        <g id="Group_2676" data-name="Group 2676" transform="translate(0 -0.099)">
+          <path id="Path_656" data-name="Path 656" d="M184.21,85.347H160.127a2.189,2.189,0,1,1,0-4.376H184.21a2.189,2.189,0,1,1,0,4.376Z" transform="translate(-157.868 -80.971)" fill="#94d034"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+/* BackButton */
+.abs {
+  position: absolute;
+}
+
+/* Toolbar */
+.div-header {
+  background-image: url(../../assets/images/gradient—bkgd-green.svg);
+  background-size: cover;
+  background-color: #94D034;
+  background-size: calc(100% + 2px);
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+  gap: 0;
+}
+
+.form-header-text {
+  color: white;
+  font-family: 'LatoBold', sans-serif;
+  font-size: 12px;
+  margin: 15px auto;
+  padding: 0;
+}
+
+.form-header-slider {
+  left: 30%;
+  position: absolute;
+  right: 30%;
+  top: 20px;
+}
+
+/* service area map wrapper */
+.service-area-location-header {
+  font-family: 'LatoBold', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  margin: 5px auto;
+}
+
+.service-area-description {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.service-area-description-inline {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto;
+  display: inline;
+}
+
+.service-area-description-inline-italic {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 13px;
+  display: inline;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.service-area-location-container {
+  align-self: flex-start;
+  margin: 20px 0 10px 0;
+}
+
+/* modal dialog */
+
+.modal-close-button {
+  position: absolute;
+  right: 5px;
+  padding: 10px 15px 15px 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.modal-title {
+  color: #171F58;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.modal-dialog-container {
+  color: #171F58;
+}
+
+.modal-note {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.modal-bullet {
+  margin-top: 20px;
+}
+
+.modal-unordered-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.modal-text-bold {
+  font-weight: bold;
+}
+
+.modal-list {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.notes-advanced {
+  margin-top: 15px;
+}
+
+.notes-advanced-title {
+  font-weight: bold;
+  display: inline;
+}
+
+.notes-advanced-body {
+  display: inline;
+}
+
+.notes-advanced-body-bold {
+  display: inline;
+  font-weight: bold;
+}

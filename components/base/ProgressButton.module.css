@@ -1,0 +1,32 @@
+.pb-flex-root {
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pb-svg-root {
+  height: 18px;
+  margin-top: 7px;
+  margin-left: 10%;
+  position: absolute;
+  z-index: 1;
+}
+
+.pb-svg-root > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.pb-flex {
+  flex: 1;
+  z-index: 0;
+}
+
+.pb-spin-item {
+  position: absolute;
+  top: 5px;
+  left: 47%;
+}

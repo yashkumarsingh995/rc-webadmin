@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="24" viewBox="0 0 45.965 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1439" data-name="Rectangle 1439" width="45.965" height="64" fill="#94d034"/>
+    </clipPath>
+  </defs>
+  <g id="icon-user--green" transform="translate(0 0)">
+    <g id="Group_2918" data-name="Group 2918" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_821" data-name="Path 821" d="M17.5,0A12.6,12.6,0,1,1,4.9,12.6,12.611,12.611,0,0,1,17.5,0Zm0,19.527A6.931,6.931,0,1,0,10.564,12.6,6.939,6.939,0,0,0,17.5,19.527Z" transform="translate(7.037 2.67)" fill="#94d034"/>
+      <path id="Path_822" data-name="Path 822" d="M2.9,45.52A2.832,2.832,0,0,1,.074,42.892a38.5,38.5,0,0,1,1.088-11.92,2.833,2.833,0,1,1,5.423,1.64,28.205,28.205,0,0,0-.918,7.236l35.29-.086V35.71A17.32,17.32,0,0,0,14.5,21a2.833,2.833,0,1,1-3-4.809A22.985,22.985,0,0,1,46.622,35.71v6.877A2.833,2.833,0,0,1,43.8,45.42l-40.89.1Z" transform="translate(-0.331 18.808)" fill="#94d034"/>
+      <path id="Line_72" data-name="Line 72" d="M1.831,5.78a2.833,2.833,0,0,1-2.2-4.617L.537.048a2.833,2.833,0,0,1,4.4,3.569l-.9,1.114A2.827,2.827,0,0,1,1.831,5.78Z" transform="translate(4.459 40.845)" fill="#94d034"/>
+      <path id="Line_73" data-name="Line 73" d="M1.833,15.638A2.833,2.833,0,0,1-1,12.806V1.833a2.833,2.833,0,0,1,5.665,0V12.806A2.833,2.833,0,0,1,1.833,15.638Z" transform="translate(11.952 48.692)" fill="#94d034"/>
+      <path id="Line_74" data-name="Line 74" d="M1.833,15.638A2.833,2.833,0,0,1-1,12.806V1.833a2.833,2.833,0,0,1,5.665,0V12.806A2.833,2.833,0,0,1,1.833,15.638Z" transform="translate(30.046 48.692)" fill="#94d034"/>
+    </g>
+  </g>
+</svg>
